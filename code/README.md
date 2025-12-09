@@ -24,8 +24,8 @@ This directory contains MATLAB scripts to help you load and process the ULMShare
 ## Dependencies
 
 Both example scripts require the following toolboxes to be in your MATLAB path:
-1. **MUST** - For ultrasound beamforming operations
-2. **TrackingAndLocalizationULM (TAL)** - For microbubble tracking and ULM processing
+1. **MUST** - For ultrasound beamforming operations, [available here](https://www.biomecardio.com/MUST/)
+2. **TrackingAndLocalizationULM (TAL)** - For microbubble tracking and ULM processing, [available here](https://github.com/provostultrasoundlab/TrackingAndLocalizationULM)
 
 Add these toolboxes using:
 ```matlab
@@ -35,7 +35,7 @@ addpath(genpath('..\TrackingAndLocalizationULM'))
 
 ## Usage
 
-1. Ensure MUST and TAL toolboxes are available and added to your path
+1. Ensure MUST and TAL toolboxes are available and added to your path. Please note that the TAL toolbox contains GPU functions that need to be compiled prior to use
 2. Update data paths in the scripts to point to your local ULMShare data location
 3. Run `example_script_one_buffer.m` for quick testing with a single buffer
 4. Run `example_script.m` for complete acquisition processing

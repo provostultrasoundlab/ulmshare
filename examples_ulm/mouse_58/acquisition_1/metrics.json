@@ -1,0 +1,10 @@
+{
+  "metrics": {
+    "FRC_um": 15.28,
+    "saturation_percent": 31.8,
+    "mean_track_length_frames": 35.7,
+    "mean_velocity_mm_s": 9.02
+  },
+  "original_name": "fUS_June_22_2022_15_47_21",
+  "source": "markdown_parsed"
+}

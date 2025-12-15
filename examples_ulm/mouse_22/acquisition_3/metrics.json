@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "mouse_idx": "mouse_22",
+    "acquisition_idx": "acquisition_3",
+    "original_name": 20420251319,
+    "FRC_um": 19.07,
+    "saturation_percent": 42.9,
+    "mean_track_length_frames": 36.6,
+    "mean_velocity_mm_s": 6.94,
+    "json_buffers_saved": 400
+  },
+  "metadata": {
+    "mouse": {
+      "strain": "C57bl/6J",
+      "sex": "F",
+      "weight_g": "15,5",
+      "age_days": "",
+      "age_weeks": "",
+      "date_birth": "",
+      "location": "Mc Gill",
+      "protocole_id": "Animal Use Protocol AUP-4532"
+    }
+  }
+}

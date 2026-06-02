@@ -1,0 +1,13 @@
+{
+  "metrics": {
+    "mouse_idx": "mouse_62",
+    "acquisition_idx": "acquisition_1",
+    "original_name": "fUS_June_22_2022_15_47_21",
+    "FRC_um": 15.31,
+    "saturation_percent": 31.8,
+    "mean_track_length_frames": 35.7,
+    "mean_velocity_mm_s": 9.02,
+    "json_buffers_saved": 400
+  },
+  "metadata": {}
+}

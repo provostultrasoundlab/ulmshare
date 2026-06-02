@@ -19,6 +19,18 @@ The full **30 TB dataset**, including all raw ultrasonic channel data (RF), is p
 * **Code & Examples:** [This GitHub Repository](https://github.com/provostultrasoundlab/ulmshare)
 
 
+## Note about large example files (Git LFS)
+
+Some example output files (notably the compressed `tracks.json.xz` files under `examples_ulm/`) are stored using Git Large File Storage (Git LFS) to keep the repository lightweight. After cloning the repository, install Git LFS and fetch these objects with:
+
+```
+git lfs install
+git lfs pull
+```
+
+If you see text pointers in place of large files (starting with `version https://git-lfs.github.com/spec/v1`), run `git lfs pull` to download the real content.
+
+
 ## Citation
 If you use ULMShare in your research, please cite the primary data descriptor:  
 - DOI : [TBD] 
@@ -36,3 +48,5 @@ Additionally, specific subsets of this data supported previous studies. Please c
 
 ## Contact
 For questions or support, email jean.provost@polymtl.ca and include “ULMShare” in the subject line of your email.
+
+

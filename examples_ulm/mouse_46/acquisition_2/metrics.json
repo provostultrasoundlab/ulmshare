@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "mouse_idx": "mouse_46",
+    "acquisition_idx": "acquisition_2",
+    "original_name": "fus_June_01_2023_12_51_46",
+    "FRC_um": 14.21,
+    "saturation_percent": 43.9,
+    "mean_track_length_frames": 37.5,
+    "mean_velocity_mm_s": 6.85,
+    "json_buffers_saved": 400
+  },
+  "metadata": {
+    "mouse": {
+      "strain": "C57bl/6J",
+      "sex": "M",
+      "weight_g": "22",
+      "age_days": "110.0",
+      "age_weeks": "",
+      "date_birth": "06/01/2024",
+      "location": "ICM",
+      "protocole_id": "TAC 2023-32-02"
+    }
+  }
+}

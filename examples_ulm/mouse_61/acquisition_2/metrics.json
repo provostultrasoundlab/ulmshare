@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "mouse_idx": "mouse_61",
+    "acquisition_idx": "acquisition_2",
+    "original_name": "fUS_March_11_2022_12_13_30",
+    "FRC_um": 20.58,
+    "saturation_percent": 44.5,
+    "mean_track_length_frames": 32.8,
+    "mean_velocity_mm_s": 6.74,
+    "json_buffers_saved": 400
+  },
+  "metadata": {
+    "mouse": {
+      "strain": "C57bl/6J",
+      "sex": "F",
+      "weight_g": "15,4",
+      "age_days": "35.0",
+      "age_weeks": "",
+      "date_birth": "31/12/2024",
+      "location": "Mc Gill",
+      "protocole_id": "Animal Use Protocol AUP-4532"
+    }
+  }
+}

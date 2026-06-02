@@ -1,0 +1,10 @@
+{
+  "metrics": {
+    "FRC_um": 18.35,
+    "saturation_percent": 51.6,
+    "mean_track_length_frames": 37.8,
+    "mean_velocity_mm_s": 6.74
+  },
+  "original_name": "2025_02_04_16_25",
+  "source": "markdown_parsed"
+}

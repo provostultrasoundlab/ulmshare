@@ -40,7 +40,7 @@ Probe = getProbe(param_acq);
 raw = load_reshaped_bin([folder_acq_data, filesep, '\data', ...
     num2str(numBuffer) '.bin']);
 raw = double(raw);
-% rf 2 iq 
+% rf 2 iq
 iq = complex(raw(1:2:end,:,:,:), -raw(2:2:end,:,:,:));
 % Define BF grid
 xaxis = startX:deltaGrid:endX-deltaGrid;
@@ -67,20 +67,20 @@ end
 ParamBF.fnumber = fnumber;
 %% actual BF
 % reshape raw data for MUST
-iq = reshape(iq,size(iq,1),size(iq,2),[],nbAngles);
+iq = reshape(iq,size(iq,1),size(iq,2),nbAngles,[]);
 % initialize matrix
-iq_bf = zeros(length(zaxis),length(xaxis),size(iq,3),nbAngles);
+iq_bf = zeros(length(zaxis),length(xaxis),size(iq,4),nbAngles);
 h = waitbar(0,'');
 for k_angle = 1:nbAngles
     waitbar(k_angle/nbAngles,h,['DAS: I/Q series #' int2str(k_angle) ' of ' param_acq.nbAngles])
-    iq_bf(:,:,:,k_angle) = das(iq(:,:,:,k_angle),xgrid,zgrid,txdel{k_angle},ParamBF);
+    iq_bf(:,:,:,k_angle) = das(squeeze(iq(:,:,k_angle,:)),xgrid,zgrid,txdel{k_angle},ParamBF);
 end
 close(h)
 % compounding
 iq_bf = sum(iq_bf,4);
 %% clutter filtering
 sizeIQ = size(iq_bf);
-iq_cf = reshape(iq_bf,[],sizeIQ(end)); 
+iq_cf = reshape(iq_bf,[],sizeIQ(end));
 % compute SVD
 [eig_vect,eig_val]  = svd(double(iq_cf'*iq_cf));
 eig_val             = diag(eig_val);
@@ -109,7 +109,7 @@ for k_fr = 1:sizeIQ(end)
     drawnow
     xticks(-4:4:4)
     yticks(2:2:8)
-        % Capture frame
+    % Capture frame
     % frame = getframe(gcf);
     % writeVideo(v, frame);
 end

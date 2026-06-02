@@ -82,7 +82,7 @@ indice_data = cellfun(@(x) str2double(regexp(x, '(?<=data)\d+', 'match', 'once')
 [indice_data, sortIdx] = sort(indice_data);
 % Reorder trackFilesListing accordingly
 dataFilesListing = dataFilesListing(sortIdx);
-nData = length(dataFilesListing); 
+nData = length(dataFilesListing);
 Track_tot = cell(nData,1);
 %% actual loop
 for numBuffer = 1:nData
@@ -96,13 +96,13 @@ for numBuffer = 1:nData
     iq = complex(raw(1:2:end,:,:,:), -raw(2:2:end,:,:,:));
     %% actual BF
     % reshape raw data for MUST
-    iq = reshape(iq,size(iq,1),size(iq,2),[],nbAngles);
+    iq = reshape(iq,size(iq,1),size(iq,2),nbAngles,[]);
     % initialize matrix
-    iq_bf = zeros(length(zaxis),length(xaxis),size(iq,3),nbAngles);
+    iq_bf = zeros(length(zaxis),length(xaxis),size(iq,4),nbAngles);
     h = waitbar(0,'');
     for k_angle = 1:nbAngles
         waitbar(k_angle/nbAngles,h,['DAS: I/Q series #' int2str(k_angle) ' of ' param_acq.nbAngles])
-        iq_bf(:,:,:,k_angle) = das(iq(:,:,:,k_angle),xgrid,zgrid,txdel{k_angle},ParamBF);
+        iq_bf(:,:,:,k_angle) = das(squeeze(iq(:,:,k_angle,:)),xgrid,zgrid,txdel{k_angle},ParamBF);
     end
     close(h)
     % compounding
@@ -138,7 +138,7 @@ for numBuffer = 1:nData
     %     frame = getframe(gcf);
     %     writeVideo(v, frame);
     % end
-    % 
+    %
     % powerDoppler = 20*log10(sum(abs(iq_cf),3));
     % powerDoppler = powerDoppler - max(powerDoppler(:));
     % figure
@@ -164,7 +164,7 @@ for numBuffer = 1:nData
 
     tmp = cell2mat(tracks.tracks_interp.spatio_temp_hessian);
     densMapTracks = densMapTracks + lib.DensityMappingND(tmp,xaxisULM,zaxisULM);
-    
+
     toc
 end
 

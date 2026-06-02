@@ -2,7 +2,7 @@
 % and acquisition acq_number using ONLY one data (# numBuffer)
 % it uses MUST for its Beamforming, and TAL for its ULM processing
 
-mouse_number = 1;
+mouse_number = 10;
 acq_number = 1;
 numBuffer = 100;
 %% path and folders
@@ -10,8 +10,8 @@ addpath(genpath('..\MUST'))
 addpath(genpath('..\TrackingAndLocalizationULM'))
 % MUST toolbox necessary to have in path for BF
 % TAL toolbox necessary to have in path for ULM processing
-ulmShare_path = 'E:\ulmshare_v2\';
-ulmShare_path_data = 'E:\ulmshare_v3_reshaped\';
+ulmShare_path = 'E:\ULMShare\';
+ulmShare_path_data = 'E:\ULMShare\';
 folder_acq = [ulmShare_path 'mouse_' num2str(mouse_number) ...
     filesep 'acquisition_' num2str(acq_number) filesep];
 folder_acq_data = [ulmShare_path_data 'mouse_' num2str(mouse_number) ...
@@ -67,13 +67,13 @@ end
 ParamBF.fnumber = fnumber;
 %% actual BF
 % reshape raw data for MUST
-iq = reshape(iq,size(iq,1),size(iq,2),[],nbAngles);
+iq = reshape(iq,size(iq,1),size(iq,2),nbAngles,[]);
 % initialize matrix
-iq_bf = zeros(length(zaxis),length(xaxis),size(iq,3),nbAngles);
+iq_bf = zeros(length(zaxis),length(xaxis),size(iq,4),nbAngles);
 h = waitbar(0,'');
 for k_angle = 1:nbAngles
     waitbar(k_angle/nbAngles,h,['DAS: I/Q series #' int2str(k_angle) ' of ' param_acq.nbAngles])
-    iq_bf(:,:,:,k_angle) = das(iq(:,:,:,k_angle),xgrid,zgrid,txdel{k_angle},ParamBF);
+    iq_bf(:,:,:,k_angle) = das(squeeze(iq(:,:,k_angle,:)),xgrid,zgrid,txdel{k_angle},ParamBF);
 end
 close(h)
 % compounding

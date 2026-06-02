@@ -96,13 +96,13 @@ for numBuffer = 1:nData
     iq = complex(raw(1:2:end,:,:,:), -raw(2:2:end,:,:,:));
     %% actual BF
     % reshape raw data for MUST
-    iq = reshape(iq,size(iq,1),size(iq,2),[],nbAngles);
+    iq = reshape(iq,size(iq,1),size(iq,2),nbAngles,[]);
     % initialize matrix
-    iq_bf = zeros(length(zaxis),length(xaxis),size(iq,3),nbAngles);
+    iq_bf = zeros(length(zaxis),length(xaxis),size(iq,4),nbAngles);
     h = waitbar(0,'');
     for k_angle = 1:nbAngles
         waitbar(k_angle/nbAngles,h,['DAS: I/Q series #' int2str(k_angle) ' of ' param_acq.nbAngles])
-        iq_bf(:,:,:,k_angle) = das(iq(:,:,:,k_angle),xgrid,zgrid,txdel{k_angle},ParamBF);
+        iq_bf(:,:,:,k_angle) = das(squeeze(iq(:,:,k_angle,:)),xgrid,zgrid,txdel{k_angle},ParamBF);
     end
     close(h)
     % compounding

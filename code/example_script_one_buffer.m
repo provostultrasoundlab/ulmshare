@@ -4,18 +4,24 @@
 
 mouse_number = 1;
 acq_number = 1;
-numBuffer = 100;
+numBuffer = 100;  % for debug keep numBuffer around 100 as the first 10
+                  % buffers sometimes contain no MB
+useTGC = false;   % apply spatially-dependent time-gain compensation
+                  % keep false by default for faster processing
+useLag1 = true;   % apply lag-1 autocorrelation signal enhancement
 %% path and folders
-addpath(genpath('..\MUST'))
-addpath(genpath('..\TrackingAndLocalizationULM'))
 % MUST toolbox necessary to have in path for BF
 % TAL toolbox necessary to have in path for ULM processing
-ulmShare_path = 'E:\ulmshare_v2\';
-ulmShare_path_data = 'E:\ulmshare_v3_reshaped\';
+path_TAL = '..\TrackingAndLocalizationULM';
+addpath(genpath('..\MUST'))
+addpath(genpath(path_TAL))
+
+ulmShare_path = ''; % fill with ULMShare data path
 folder_acq = [ulmShare_path 'mouse_' num2str(mouse_number) ...
     filesep 'acquisition_' num2str(acq_number) filesep];
-folder_acq_data = [ulmShare_path_data 'mouse_' num2str(mouse_number) ...
+folder_acq_data = [ulmShare_path 'mouse_' num2str(mouse_number) ...
     filesep 'acquisition_' num2str(acq_number) filesep];
+
 save_track_folder = [folder_acq 'track\']; mkdir(save_track_folder);
 
 %% processing parameters
@@ -26,6 +32,9 @@ startZ = 0.05*1e-2; endZ = .85*1e-2; % start and end x for BF grid (m)
 deltaGrid = 2.5*1e-5; % resolution of BF grid (m)
 % Clutter filter parameter
 clutterFilterCut = 5/100; % clutter filter cut of (%)
+% Signal-enhancement options (applied after clutter filtering)
+attEns = 9;      % TGC: Gaussian filter std, in pixels (Table 3)
+sizeEns = 7;     % lag-1: temporal Hanning window length, in frames
 % ULM parameters localization
 resolution_ULM_grid = 10; % lambda / resolution_ULM_grid gives the ULM map pixel size
 
@@ -65,7 +74,7 @@ else
     error('200 % Bandwith is not currently implemented')
 end
 ParamBF.fnumber = fnumber;
-%% actual BF
+%% BF with MUST
 % reshape raw data for MUST
 iq = reshape(iq,size(iq,1),size(iq,2),nbAngles,[]);
 % initialize matrix
@@ -79,17 +88,20 @@ close(h)
 % compounding
 iq_bf = sum(iq_bf,4);
 %% clutter filtering
-sizeIQ = size(iq_bf);
-iq_cf = reshape(iq_bf,[],sizeIQ(end));
-% compute SVD
-[eig_vect,eig_val]  = svd(double(iq_cf'*iq_cf));
-eig_val             = diag(eig_val);
-% actual cut
-Ncut = round(sizeIQ(end)*clutterFilterCut);
-eig_vect          = eig_vect(:,Ncut:end);
-iq_cf             = (iq_cf*eig_vect)*eig_vect';
-% final reshape
-iq_cf             = reshape(iq_cf,sizeIQ);
+iq_cf = svdClutterFilter(iq_bf, clutterFilterCut);
+%% signal enhancement: TGC and lag-1 autocorrelation
+if useTGC
+    % compute the TGC mask from the clutter-filtered signal
+    attenuationMask = imgaussfilt(sqrt(mean(abs(iq_cf).^2,3)), attEns);
+    % apply to the original pre-SVD beamformed data, then re-run SVD
+    iq_cf = svdClutterFilter(iq_bf ./ (attenuationMask + eps), clutterFilterCut);
+end
+if useLag1
+    ht = hanning(sizeEns); ht = reshape(ht./sum(ht), [1 1 sizeEns]);
+    lag1_complex = imfilter(iq_cf(:,:,1:end-1).*conj(iq_cf(:,:,2:end)), ht);
+    iq_cf = sqrt(abs(lag1_complex)); 
+end
+sizeIQ = size(iq_cf);  % re-derive: lag-1 (if applied) drops one frame
 %% display power doppler
 powerDopplerMovie = 20*log10(abs(iq_cf));
 powerDopplerMovie = powerDopplerMovie - max(powerDopplerMovie(:));
@@ -130,38 +142,47 @@ c.Ticks= [-40 0];
 iq_cf_crop = iq_cf(:,:,1:100);
 sizeIQ = size(iq_cf_crop);
 wavelength = 1540/ParamBF.fc;
-
-
+% find the default processing parameters
 cfg_processing_path = [path_TAL '\config\config.json'] ;
 ParamProcessing = dataLoader.LoadSaveParams(cfg_processing_path,[save_track_folder,'/cfg_processing.json']);
 
 frameRate = str2double(param_acq.frameRate_Hz);
 numFrame = sizeIQ(end);
+% create Interpolator and Velocitor objects
 Interpolator = interpolation.Interpolator(ParamProcessing,frameRate);
 Velocitor = velocity.Velocitor(ParamProcessing);
-
+% create the ULM density grid
 deltaGridULM = wavelength/resolution_ULM_grid;
 xaxisULM = startX:deltaGridULM:endX-deltaGrid;
 zaxisULM = startZ:deltaGridULM:endZ-deltaGrid;
-
 gridStruct.resBfGrid = deltaGrid;
 gridStruct.xMin = startX;
 gridStruct.yMin = 0;
 gridStruct.zMin = startZ;
-
+% assign empty density map matrix
 densMapTracks = zeros(size(zaxisULM,2),size(xaxisULM,2));
-
+% actual tracking
 resultsTracking.(ParamProcessing.trackingMethod{1}) = ...
     SpatioTempTracker(iq_cf_crop,ParamProcessing);
 tracks = Tracks(resultsTracking,ParamProcessing,frameRate,numFrame);
 tracks= Interpolator.interp_tracks(tracks);
 tracks = Velocitor.velocity_tracks(tracks);
 tracks.pixelToMeters(gridStruct);
-
+% projection on the density map
 tmp = cell2mat(tracks.tracks_interp.spatio_temp_hessian);
-
-
 densMapTracks = densMapTracks + lib.DensityMappingND(tmp,xaxisULM,zaxisULM);
 
 figure
 imagesc(densMapTracks); axis image; clim([0 4])
+
+%% local functions
+function iq_out = svdClutterFilter(iq_in, clutterFilterCut)
+sizeIQ = size(iq_in);
+iq_flat = reshape(iq_in,[],sizeIQ(end));
+[eig_vect,eig_val]  = svd(double(iq_flat'*iq_flat));
+eig_val             = diag(eig_val);
+Ncut = round(sizeIQ(end)*clutterFilterCut);
+eig_vect          = eig_vect(:,Ncut:end);
+iq_flat           = (iq_flat*eig_vect)*eig_vect';
+iq_out            = reshape(iq_flat,sizeIQ);
+end

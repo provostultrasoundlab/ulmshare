@@ -1,102 +1,100 @@
-mouse_idx,acquisition_idx,doi_citations,location,protocole_id,probes,sex,animal_strain,age_days,date_of_birth,weight,slice_position,temperature,procedure_type,procedure_info,anesthesia,seringe_gage,flush,injection_type,mb_dilution,volume_mb_injected,FRC_um,saturation_percent,mean_track_length_frames,quality_grade
-mouse_1,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,41,11/11/2022,15.8,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,21.08,45.4,33.2,B
-mouse_2,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,30,19/03/2023,15,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,24.39,42.3,36.6,B
-mouse_3,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,39,14/11/2022,16.4,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,25.87,45.9,32.8,B
-mouse_4,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,26,14/12/2022,14.9,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,30.55,37.8,33.3,B
-mouse_5,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,57,15/12/2022,16,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,24.47,48.8,34.5,B
-mouse_6,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,55,6/1/2023,"18,5",striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,22.07,43.9,31.3,B
-mouse_7,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,30,14/02/2023,"13,8",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,21.34,53.4,37.4,A
-mouse_8,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,,unkown,"15,5",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,23.7,48.6,34.5,A
-mouse_9,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,88,4/1/2024,"11,8",striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,20.94,51.8,35.2,A
-mouse_10,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,37,31/12/2023,"15,5",striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,29.09,38.4,35.5,A
-mouse_11,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,28,1/12/2023,15,striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,18.55,41.8,37.8,A
-mouse_11,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,28,1/12/2023,15,striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,20.17,35,36.4,B
-mouse_12,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,28,1/12/2023,"15,6",striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,23.4,40.8,36.4,A
-mouse_12,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,28,1/12/2023,"15,6",striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,19.36,38.8,37.7,A
-mouse_13,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,28,1/12/2023,"15,1",striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,27.35,36.6,35.8,B
-mouse_13,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,28,1/12/2023,"15,1",striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,20.23,40.7,37.4,A
-mouse_14,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,28,1/12/2023,14,striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,22.48,35.7,37,B
-mouse_14,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,28,1/12/2023,14,striatum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,27.25,37.3,37,A
-mouse_15,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,22,17/12/2023,"13,8",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,25.6,44.8,34.5,B
-mouse_15,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,22,17/12/2023,"13,8",Pons,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,25.96,48.8,36.3,A
-mouse_16,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,36,11/6/2024,16,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,20.41,49.9,36.6,A
-mouse_16,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,36,11/6/2024,16,Hippocampus,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,24.43,39.7,37.2,A
-mouse_16,acquisition_3,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,36,11/6/2024,16,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,26.04,37.4,37.2,B
-mouse_16,acquisition_4,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,36,11/6/2024,16,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,26.9,36.2,37.2,A
-mouse_16,acquisition_5,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,36,11/6/2024,16,Midbrain,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,30.16,32.2,36.6,A
-mouse_17,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"18,6",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,21.32,51,35.9,A
-mouse_17,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"18,6",Hippocampus,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,22.07,50.6,38.3,A
-mouse_17,acquisition_3,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"18,6",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,26.39,44,38.5,A
-mouse_17,acquisition_4,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"18,6",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,29.89,41.8,37.9,A
-mouse_17,acquisition_5,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"18,6",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,32.88,32.9,35.6,A
-mouse_17,acquisition_6,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"18,6",Midbrain,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,31.43,35,37.6,A
-mouse_18,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"15,1",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,22.23,48.5,38.7,A
-mouse_18,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"15,1",Hippocampus,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,21.79,47,39.2,A
-mouse_18,acquisition_3,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"15,1",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,22.56,44.7,39,A
-mouse_18,acquisition_4,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"15,1",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,25.22,44.3,38.6,A
-mouse_18,acquisition_5,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"15,1",Midbrain,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,24.89,44.3,37.9,A
-mouse_18,acquisition_6,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,38,16/06/2024,"15,1",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,26.25,41.4,38,A
-mouse_19,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,15,Midbrain,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,26.08,44.4,36.1,A
-mouse_19,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,15,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,41.7,28.4,29.4,C
-mouse_19,acquisition_3,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,15,Cerebellum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,32.9,36,31.4,B
-mouse_20,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,"15,2",Cerebellum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,31.02,32,31.3,B
-mouse_20,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,"15,2",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,41.11,21.3,29.6,C
-mouse_20,acquisition_3,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,"15,2",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,30.69,20.9,31.8,C
-mouse_20,acquisition_4,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,"15,2",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,30.97,24.8,31.6,B
-mouse_21,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,"14,9",Cerebellum,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,31.61,37.7,30.3,B
-mouse_21,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,115,8/4/2024,"14,9",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,38.03,23.6,29.5,C
-mouse_22,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,,unknown,"15,5",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,19.81,52.5,34.7,A
-mouse_23,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,34,19/02/2023,"17,8",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,23.91,50.6,33.1,A
-mouse_24,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,34,1/3/2023,"17,4",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,24.66,45.4,31.5,B
-mouse_25,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,37,31/12/2023,18,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,26.46,47.6,34.8,A
-mouse_26,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,34,31/12/2023,"13,4",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,26.17,42.2,36.7,A
-mouse_27,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,34,31/12/2023,"13,5",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,26.17,39.8,38.4,A
-mouse_28,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,29,7/1/2024,13,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,29.33,38.3,35.6,A
-mouse_29,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,37,31/12/2023,"19,1",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,30.55,43.2,35.6,A
-mouse_30,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,,unknown,unknown,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,30.81,40.9,34.5,A
-mouse_31,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,28,20/06/2023,"11,3",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,22.75,42.7,38.2,A
-mouse_32,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,unknown,C57bl/6J,,unknown,unknown,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,20.23,44.8,33.1,A
-mouse_33,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,unknown,C57bl/6J,34,19/02/2023,unknown,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,25.39,36.1,35.3,A
-mouse_33,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,unknown,C57bl/6J,34,19/02/2023,unknown,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,33.16,38.8,34.8,B
-mouse_34,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,unknown,C57bl/6J,,unknown,unknown,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,24.46,46.4,34.4,B
-mouse_35,acquisition_1,10.1016/j.ultrasmedbio.2024.05.023,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,48,5/1/2023,"21,3",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:20,4 uL/g,22.13,58.4,44.1,A
-mouse_36,acquisition_1,10.1016/j.ultrasmedbio.2024.05.023,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,48,5/1/2023,24,,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:10,4 uL/g,20.18,60.7,35.6,A
-mouse_36,acquisition_2,10.1016/j.ultrasmedbio.2024.05.023,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,48,5/1/2023,24,,,Trig,"On the R-wave -  Labeo Technologies Inc., Quebec, Canada",1.5-2% isoflurane,,,Bolus in the tail vein,1:10,4 uL/g,22.2,56.3,38.2,A
-mouse_37,acquisition_1,10.1016/j.ultrasmedbio.2024.05.023,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,48,5/1/2023,"23,5",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:10,4 uL/g,22.54,60.8,33.9,A
-mouse_37,acquisition_2,10.1016/j.ultrasmedbio.2024.05.023,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,48,5/1/2023,"23,5",,,Trig,"On the R-wave -  Labeo Technologies Inc., Quebec, Canada",1.5-2% isoflurane,,,Bolus in the tail vein,1:10,4 uL/g,23.71,53,38.7,A
-mouse_38,acquisition_1,10.1016/j.ultrasmedbio.2024.05.023,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,48,5/1/2023,"21,2",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:10,4 uL/g,23.13,59.3,35.1,A
-mouse_38,acquisition_2,10.1016/j.ultrasmedbio.2024.05.023,Mc Gill,Animal Use Protocol AUP-4532,L22-14,M,C57bl/6J,48,5/1/2023,"21,2",,,Trig,"On the R-wave -  Labeo Technologies Inc., Quebec, Canada",1.5-2% isoflurane,,,Bolus in the tail vein,1:10,4 uL/g,24.73,57.9,35.5,A
-mouse_39,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L8-18iD 0.658mm Lens,M,C57bl/6N,63,2/1/2025,"22,5",-3,,,,1.5-2% isoflurane,30G,,Bolus in the tail vein,1:20,4 uL/g,37.85,5.2,26.6,C
-mouse_40,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L8-18iD 0.658mm Lens,M,C57bl/6N,49,16/01/2025,22,-3,,,,1.5-2% isoflurane,30G,,Bolus in the tail vein,1:20,4 uL/g,47.17,2,27.5,C
-mouse_41,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L8-18iD 0.658mm Lens,M,C57bl/6N,49,16/01/2025,17,-3,,,,1.5-2% isoflurane,30G,,Bolus in the tail vein,1:20,4 uL/g,56.61,2.7,26.6,C
-mouse_42,acquisition_1,,UDM, 22-013 (may not be up to date),L22-14,M,C57bl/6J,59,3/4/2023,"20,9",,35-36,"Functional, skin removed","whisker stimulation, transcranial but skin removed",Ketamine (50mg/kg) and Medetomidine (1mg/kg),n\a,,Bolus retro-orbital,Pure injection,10 uL,16.9,43.4,41.7,A
-mouse_42,acquisition_2,,UDM, 22-013 (may not be up to date),L22-14,M,C57bl/6J,59,3/4/2023,"20,9",,35-36,"Functional, skin removed","whisker stimulation, transcranial but skin removed",Ketamine (50mg/kg) and Medetomidine (1mg/kg),n\a,,Bolus retro-orbital,Pure injection,10 uL,14.21,43.9,37.5,A
-mouse_43,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57bl/6N,155,8/1/2024,24,,,,,1.5-2% isoflurane,27G,Yes,Bolus in catheter tail vein,1:10,4 uL/g,46.2,24.2,29.8,C
-mouse_44,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57bl/6N,155,8/1/2024,20,,,,,1.5-2% isoflurane,27G,Yes,Bolus in catheter tail vein,1:10,4 uL/g,59.2,26.4,29.2,C
-mouse_45,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,M,C57bl/6J,110,6/1/2024,26,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,47.29,33.2,31,C
-mouse_46,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,M,C57bl/6J,110,6/1/2024,22,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,61.48,31.9,30.3,C
-mouse_47,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57bl/6N,216,8/1/2024,29,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,65.51,13,27.8,C
-mouse_48,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57bl/6N,216,8/1/2024,24,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,54.74,28.9,28.7,C
-mouse_49,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57bl/6N,48,30/11/2024,17,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,56.28,20.5,30,C
-mouse_50,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57bl/6N,48,30/11/2024,15,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,66.6,22,31.5,C
-mouse_51,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,M,C57bl/6N,46,30/11/2024,15,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,40.16,24.6,28.9,C
-mouse_52,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,M,C57bl/6N,46,30/11/2024,16,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,54.74,26.2,30.5,C
-mouse_53,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57bl/6N,47,30/11/2024,13,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,57.5,16.2,29.1,C
-mouse_54,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57bl/6N,47,30/11/2024,15,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,54.74,27.6,31.4,B
-mouse_55,acquisition_1,10.1109/TBME.2025.3564473;10.1109/TMI.2023.3316995,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,55,24/12/2021,x,x,36-37,Functional,"whisker stimulation, trig on each stim, 15 trials, 40 buffer by trial",Ketamine (50mg/kg) and Medetomidine (1mg/kg),x,,Bolus retro-orbital,Pure injection,10 ul,15.94,47.3,36,A
-mouse_55,acquisition_2,10.1109/TBME.2025.3564473;10.1109/TMI.2023.3316995,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,55,24/12/2021,x,x,36-37,Functional,"trig on each stim, 15 trials, 40 buffer by trial",Ketamine (50mg/kg) and Medetomidine (1mg/kg),x,,Bolus retro-orbital,Pure injection,10 ul,23.03,34.2,41.2,A
-mouse_56,acquisition_1,10.1109/TBME.2025.3564473;10.1109/TMI.2023.3316995,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,56,24/12/2021,x,x,36-37,Functional,"trig on each stim, 15 trials, 40 buffer by trial
-",Ketamine (50mg/kg) and Medetomidine (1mg/kg),x,,Bolus retro-orbital,Pure injection,10 ul,16.95,52.7,34.3,A
-mouse_56,acquisition_2,10.1109/TBME.2025.3564473;10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,56,24/12/2021,x,x,36-37,Functional,"trig on each stim, 15 trials, 40 buffer by trial
-",Ketamine (50mg/kg) and Medetomidine (1mg/kg),x,,Bolus retro-orbital,Pure injection,10 ul,20.7,50,42,A
-mouse_56,acquisition_3,10.1109/TMI.2023.3316995;10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,56,24/12/2021,x,x,36-37,,,Ketamine (50mg/kg) and Medetomidine (1mg/kg),x,,Bolus retro-orbital,Pure injection,10 ul,17.67,49.7,38.4,A
-mouse_57,acquisition_1,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,77,24/12/2021,31,x,36-37,Functional,40 buffers per stim continuous,Ketamine (50mg/kg) and Medetomidine (1mg/kg),x,,Bolus retro-orbital,Pure injection,10 uL,18.84,44.3,36.5,B
-mouse_57,acquisition_2,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,77,24/12/2021,31,x,36-37,Functional,40 buffers per stim continuous,Ketamine (50mg/kg) and Medetomidine (1mg/kg),x,,Bolus retro-orbital,Pure injection,10 uL,20.58,44.5,32.8,B
-mouse_58,acquisition_1,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,F,C57bl/6J,70,13/04/2022,"19,9",x,36-37,Functional,air puff stimulation,Ketamine (50mg/kg) and Medetomidine (1mg/kg),,,Bolus retro-orbital,Pure injection,10 ul,15.31,31.8,35.7,A
-mouse_59,acquisition_1,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,71,13/04/2022,"25,8",x,36-37,Functional,air puff stimulation,Ketamine (50mg/kg) and Medetomidine (1mg/kg),,,Bolus retro-orbital,Pure injection,10 ul,16.08,30.6,38.1,B
-mouse_59,acquisition_2,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,71,13/04/2022,"25,8",x,36-37,Functional,manual stimulation,Ketamine (50mg/kg) and Medetomidine (1mg/kg),,,Bolus retro-orbital,Pure injection,10 ul,17.1,31,36.3,B
-mouse_59,acquisition_3,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57bl/6J,71,13/04/2022,"25,8",x,36-37,Functional,air puff stimulation,Ketamine (50mg/kg) and Medetomidine (1mg/kg),,,Bolus retro-orbital,Pure injection,10 ul,19.95,32.4,38.4,B
-mouse_60,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,35,31/12/2024,"15,6",Pons,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,23.94,46.9,34.7,A
-mouse_60,acquisition_2,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,35,31/12/2024,"15,6",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,24.65,46.2,37.4,A
-mouse_60,acquisition_3,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,35,31/12/2024,"15,6",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,19.07,42.9,36.6,A
-mouse_61,acquisition_1,,Mc Gill,Animal Use Protocol AUP-4532,L22-14,F,C57bl/6J,35,31/12/2024,"15,4",,,,,1.5-2% isoflurane,,,Bolus in the tail vein,1:50,4 uL/g,18.3,51.6,37.8,A
+mouse_idx,acquisition_idx,doi_citations,location,protocole_id,probes,sex,animal_strain,age_days,weight,slice_position,temperature,procedure_type,procedure_info,anesthesia,syringe_gauge,flush,injection_type,mb_dilution,volume_mb_injected,FRC_um,saturation_percent,mean_track_length_frames,quality_grade
+mouse_1,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,41.0,15.8,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,21.08,45.4,33.2,B
+mouse_2,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,30.0,15,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,24.39,42.3,36.6,B
+mouse_3,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,39.0,16.4,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,25.87,45.9,32.8,B
+mouse_4,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,26.0,14.9,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,30.55,37.8,33.3,B
+mouse_5,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,57.0,16,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,24.47,48.8,34.5,B
+mouse_6,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,55.0,18.5,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,22.07,43.9,31.3,B
+mouse_7,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,30.0,13.8,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,21.34,53.4,37.4,A
+mouse_8,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,,15.5,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,23.7,48.6,34.5,A
+mouse_9,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,88.0,11.8,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,20.94,51.8,35.2,A
+mouse_10,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,37.0,15.5,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,29.09,38.4,35.5,A
+mouse_11,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,28.0,15,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,18.55,41.8,37.8,A
+mouse_11,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,28.0,15,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,20.17,35,36.4,B
+mouse_12,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,28.0,15.6,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,23.4,40.8,36.4,A
+mouse_12,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,28.0,15.6,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,19.36,38.8,37.7,A
+mouse_13,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,28.0,15.1,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,27.35,36.6,35.8,B
+mouse_13,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,28.0,15.1,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,20.23,40.7,37.4,A
+mouse_14,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,28.0,14,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,22.48,35.7,37,B
+mouse_14,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,28.0,14,striatum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,27.25,37.3,37,A
+mouse_15,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,22.0,13.8,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,25.6,44.8,34.5,B
+mouse_15,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,22.0,13.8,pons,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,25.96,48.8,36.3,A
+mouse_16,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,36.0,16,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,20.41,49.9,36.6,A
+mouse_16,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,36.0,16,hippocampus,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,24.43,39.7,37.2,A
+mouse_16,acquisition_3,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,36.0,16,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,26.04,37.4,37.2,B
+mouse_16,acquisition_4,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,36.0,16,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,26.9,36.2,37.2,A
+mouse_16,acquisition_5,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,36.0,16,midbrain,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,30.16,32.2,36.6,A
+mouse_17,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,18.6,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,21.32,51,35.9,A
+mouse_17,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,18.6,hippocampus,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,22.07,50.6,38.3,A
+mouse_17,acquisition_3,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,18.6,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,26.39,44,38.5,A
+mouse_17,acquisition_4,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,18.6,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,29.89,41.8,37.9,A
+mouse_17,acquisition_5,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,18.6,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,32.88,32.9,35.6,A
+mouse_17,acquisition_6,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,18.6,midbrain,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,31.43,35,37.6,A
+mouse_18,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,15.1,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,22.23,48.5,38.7,A
+mouse_18,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,15.1,hippocampus,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,21.79,47,39.2,A
+mouse_18,acquisition_3,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,15.1,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,22.56,44.7,39,A
+mouse_18,acquisition_4,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,15.1,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,25.22,44.3,38.6,A
+mouse_18,acquisition_5,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,15.1,midbrain,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,24.89,44.3,37.9,A
+mouse_18,acquisition_6,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,38.0,15.1,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,26.25,41.4,38,A
+mouse_19,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,15,midbrain,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,26.08,44.4,36.1,A
+mouse_19,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,15,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,41.7,28.4,29.4,C
+mouse_19,acquisition_3,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,15,cerebellum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,32.9,36,31.4,B
+mouse_20,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,15.2,cerebellum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,31.02,32,31.3,B
+mouse_20,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,15.2,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,41.11,21.3,29.6,C
+mouse_20,acquisition_3,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,15.2,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,30.69,20.9,31.8,C
+mouse_20,acquisition_4,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,15.2,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,30.97,24.8,31.6,B
+mouse_21,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,14.9,cerebellum,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,31.61,37.7,30.3,B
+mouse_21,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,115.0,14.9,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,38.03,23.6,29.5,C
+mouse_22,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,,15.5,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,19.81,52.5,34.7,A
+mouse_23,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,34.0,17.8,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,23.91,50.6,33.1,A
+mouse_24,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,34.0,17.4,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,24.66,45.4,31.5,B
+mouse_25,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,37.0,18,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,26.46,47.6,34.8,A
+mouse_26,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,34.0,13.4,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,26.17,42.2,36.7,A
+mouse_27,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,34.0,13.5,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,26.17,39.8,38.4,A
+mouse_28,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,29.0,13,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,29.33,38.3,35.6,A
+mouse_29,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,37.0,19.1,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,30.55,43.2,35.6,A
+mouse_30,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,,,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,30.81,40.9,34.5,A
+mouse_31,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,28.0,11.3,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,22.75,42.7,38.2,A
+mouse_32,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,,C57BL/6J,,,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,20.23,44.8,33.1,A
+mouse_33,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,,C57BL/6J,34.0,,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,25.39,36.1,35.3,A
+mouse_33,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,,C57BL/6J,34.0,,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,33.16,38.8,34.8,B
+mouse_34,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,,C57BL/6J,,,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,24.46,46.4,34.4,B
+mouse_35,acquisition_1,10.1016/j.ultrasmedbio.2024.05.023,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,48.0,21.3,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:20,4 uL/g,22.13,58.4,44.1,A
+mouse_36,acquisition_1,10.1016/j.ultrasmedbio.2024.05.023,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,48.0,24,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:10,4 uL/g,20.18,60.7,35.6,A
+mouse_36,acquisition_2,10.1016/j.ultrasmedbio.2024.05.023,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,48.0,24,,,Trig,"On the R-wave -  Labeo Technologies Inc., Quebec, Canada",1.5-2% isoflurane,,No,Bolus in the tail vein,1:10,4 uL/g,22.2,56.3,38.2,A
+mouse_37,acquisition_1,10.1016/j.ultrasmedbio.2024.05.023,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,48.0,23.5,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:10,4 uL/g,22.54,60.8,33.9,A
+mouse_37,acquisition_2,10.1016/j.ultrasmedbio.2024.05.023,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,48.0,23.5,,,Trig,"On the R-wave -  Labeo Technologies Inc., Quebec, Canada",1.5-2% isoflurane,,No,Bolus in the tail vein,1:10,4 uL/g,23.71,53,38.7,A
+mouse_38,acquisition_1,10.1016/j.ultrasmedbio.2024.05.023,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,48.0,21.2,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:10,4 uL/g,23.13,59.3,35.1,A
+mouse_38,acquisition_2,10.1016/j.ultrasmedbio.2024.05.023,McGill,Animal Use Protocol AUP-4532,L22-14,M,C57BL/6J,48.0,21.2,,,Trig,"On the R-wave -  Labeo Technologies Inc., Quebec, Canada",1.5-2% isoflurane,,No,Bolus in the tail vein,1:10,4 uL/g,24.73,57.9,35.5,A
+mouse_39,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L8-18iD 0.658mm Lens,M,C57BL/6N,63.0,22.5,-3,,,,1.5-2% isoflurane,30G,No,Bolus in the tail vein,1:20,4 uL/g,37.85,5.2,26.6,C
+mouse_40,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L8-18iD 0.658mm Lens,M,C57BL/6N,49.0,22,-3,,,,1.5-2% isoflurane,30G,No,Bolus in the tail vein,1:20,4 uL/g,47.17,2,27.5,C
+mouse_41,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L8-18iD 0.658mm Lens,M,C57BL/6N,49.0,17,-3,,,,1.5-2% isoflurane,30G,No,Bolus in the tail vein,1:20,4 uL/g,56.61,2.7,26.6,C
+mouse_42,acquisition_1,,UDM,22-013,L22-14,M,C57BL/6J,59.0,20.9,,35-36,"Functional, skin removed","whisker stimulation, transcranial but skin removed",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,16.9,43.4,41.7,A
+mouse_42,acquisition_2,,UDM,22-013,L22-14,M,C57BL/6J,59.0,20.9,,35-36,"Functional, skin removed","whisker stimulation, transcranial but skin removed",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,14.21,43.9,37.5,A
+mouse_43,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57BL/6N,155.0,24,,,,,1.5-2% isoflurane,27G,Yes,Bolus in catheter tail vein,1:10,4 uL/g,46.2,24.2,29.8,C
+mouse_44,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57BL/6N,155.0,20,,,,,1.5-2% isoflurane,27G,Yes,Bolus in catheter tail vein,1:10,4 uL/g,59.2,26.4,29.2,C
+mouse_45,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,M,C57BL/6J,110.0,26,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,47.29,33.2,31,C
+mouse_46,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,M,C57BL/6J,110.0,22,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,61.48,31.9,30.3,C
+mouse_47,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57BL/6N,216.0,29,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,65.51,13,27.8,C
+mouse_48,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57BL/6N,216.0,24,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,54.74,28.9,28.7,C
+mouse_49,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57BL/6N,48.0,17,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,56.28,20.5,30,C
+mouse_50,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57BL/6N,48.0,15,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,66.6,22,31.5,C
+mouse_51,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,M,C57BL/6N,46.0,15,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,40.16,24.6,28.9,C
+mouse_52,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,M,C57BL/6N,46.0,16,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,54.74,26.2,30.5,C
+mouse_53,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57BL/6N,47.0,13,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,57.5,16.2,29.1,C
+mouse_54,acquisition_1,,ICM,TAC 2023-32-02,L8-18iD 0.712mm Lens,F,C57BL/6N,47.0,15,,,,,1.5-2% isoflurane,,Yes,Bolus in catheter tail vein,1:10,4 uL/g,54.74,27.6,31.4,B
+mouse_55,acquisition_1,10.1109/TBME.2025.3564473;10.1109/TMI.2023.3316995,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,55.0,,0.2,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,15.94,47.3,36,A
+mouse_55,acquisition_2,10.1109/TBME.2025.3564473;10.1109/TMI.2023.3316995,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,55.0,,0.7,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,23.03,34.2,41.2,A
+mouse_56,acquisition_1,10.1109/TBME.2025.3564473;10.1109/TMI.2023.3316995,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,56.0,,-2.2,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,16.95,52.7,34.3,A
+mouse_56,acquisition_2,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,56.0,,-1.5,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,20.7,50,42,A
+mouse_56,acquisition_3,10.1109/TBME.2025.3564473;10.1109/TMI.2023.3316995,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,56.0,,0,36-37,,,Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,17.67,49.7,38.4,A
+mouse_57,acquisition_1,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,77.0,31,,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,18.84,44.3,36.5,B
+mouse_57,acquisition_2,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,77.0,31,,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,20.58,44.5,32.8,B
+mouse_58,acquisition_1,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,F,C57BL/6J,70.0,19.9,,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,15.31,31.8,35.7,A
+mouse_59,acquisition_1,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,71.0,25.8,,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,16.08,30.6,38.1,B
+mouse_59,acquisition_2,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,71.0,25.8,,36-37,Functional,"Whisker stimulation, manual delivery, 15 trials, no electronic trigger",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,17.1,31,36.3,B
+mouse_59,acquisition_3,10.1109/TBME.2025.3564473,UDM,21-017 and 22-013,L22-14,M,C57BL/6J,71.0,25.8,,36-37,Functional,"Whisker stimulation, air-puff, Arduino-triggered, 15 trials",Ketamine (50mg/kg) and Medetomidine (1mg/kg),,No,Bolus retro-orbital,Pure injection,10 uL,19.95,32.4,38.4,B
+mouse_60,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,35.0,15.6,pons,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,23.94,46.9,34.7,A
+mouse_60,acquisition_2,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,35.0,15.6,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,24.65,46.2,37.4,A
+mouse_60,acquisition_3,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,35.0,15.6,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,19.07,42.9,36.6,A
+mouse_61,acquisition_1,,McGill,Animal Use Protocol AUP-4532,L22-14,F,C57BL/6J,35.0,15.4,,,,,1.5-2% isoflurane,,No,Bolus in the tail vein,1:50,4 uL/g,18.3,51.6,37.8,A

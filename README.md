@@ -21,11 +21,11 @@ ulmshare/
 │   └── ...
 ├── examples_ulm/           # Illustrative outputs per acquisition
 │   └── Mouse_XX/acquisition_YY/
-│       ├── density_map.png
+│       ├── density_map.jpg
 │       ├── tracks.json.xz
 │       └── metrics.json
 └── summary/                # Dataset-wide overview
-    ├── metadata.csv
+    ├── metadata_summary.csv
     ├── images/
     └── report.md
 ```
@@ -34,7 +34,7 @@ The raw 30 TB acquisition data itself (channel data + JSON metadata) is **not** 
 ## Getting Started
 New to this repo? Start here:
 1. Read `code/README.md` for how to run the example MATLAB pipeline on a downloaded acquisition.
-2. Browse `summary/report.md` and `summary/metadata.csv` to find a specific mouse/acquisition without downloading any raw data.
+2. Browse `summary/report.md` and `summary/metadata_summary.csv` to find a specific mouse/acquisition without downloading any raw data.
 3. Look under `examples_ulm/` for that acquisition's precomputed density map and tracks — no processing required.
 
 ## Data Availability
@@ -68,10 +68,10 @@ If you use the provided MATLAB scripts for ULM reconstruction in your research, 
 Additionally, specific subsets of this data supported previous studies. Please cite the corresponding DOI if using, even partially, the following acquisitions:
 * DOI: 10.1016/j.ultrasmedbio.2024.05.023 (7 acquisitions) 
 	Includes: Mouse 35 (Acq 1), Mouse 36 (Acq 1, 2), Mouse 37 (Acq 1, 2), Mouse 38 (Acq 1, 2).
-* DOI: 10.1109/TBME.2025.3564473 (6 acquisitions)
-	Includes: Mouse 57 (Acq 1, 2), Mouse 58 (Acq 1), Mouse 59 (Acq 1, 2, 3).
-* DOIs: 10.1109/TBME.2025.3564473 & 10.1109/TMI.2023.3316995 (3 acquisitions)
-	Includes: Mouse 55 (Acq 1, 2), Mouse 56 (Acq 1).
+* DOI: 10.1109/TBME.2025.3564473 (7 acquisitions)
+	Includes: Mouse 56 (Acq 2), Mouse 57 (Acq 1, 2), Mouse 58 (Acq 1), Mouse 59 (Acq 1, 2, 3).
+* DOIs: 10.1109/TBME.2025.3564473 & 10.1109/TMI.2023.3316995 (4 acquisitions)
+	Includes: Mouse 55 (Acq 1, 2), Mouse 56 (Acq 1, 3).
 
 ## Contact
 For questions or support, email jean.provost@polymtl.ca and include “ULMShare” in the subject line of your email.

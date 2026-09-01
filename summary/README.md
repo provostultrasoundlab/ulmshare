@@ -22,7 +22,7 @@ Blank values mean the field was not recorded for that acquisition.
 | `acquisition_idx` | Acquisition identifier within a mouse (e.g. `acquisition_1`). |
 | `doi_citations` | DOI(s) of prior publications that used this specific acquisition; cite these alongside the dataset DOI if reusing this acquisition's data. Semicolon-separated if more than one. |
 | `location` | Facility where the mouse was housed and imaged (`McGill`, `ICM`, or `UDM`). |
-| `protocole_id` | Animal ethics protocol ID under which the acquisition was approved. |
+| `protocol_id` | Animal ethics protocol ID under which the acquisition was approved. |
 | `probes` | Ultrasound transducer used (`L22-14` = L22-14v, or `L8-18iD`). |
 | `sex` | `F` (female) or `M` (male). |
 | `animal_strain` | Mouse strain — `C57BL/6J` or `C57BL/6N`. |

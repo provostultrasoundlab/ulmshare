@@ -43,10 +43,13 @@ param_acq = fscanf(fid,'%c'); fclose(fid);
 param_acq = jsondecode(param_acq);
 % load probe info
 Probe = getProbe(param_acq);
-% Define BF grid
-xaxis = startX:deltaGrid:endX-deltaGrid;
-zaxis = startZ:deltaGrid:endZ-deltaGrid;
-[xgrid,zgrid] = meshgrid(xaxis, zaxis);
+% number of active elements (used by MUST as Probe.Nelements) = number of
+% channels recorded in the data. It can be smaller than the number of
+% elements of the probe (Probe.NelementsProbe), read from a data file header
+firstData = dir([folder_acq_data, filesep, 'data*.bin']);
+fid = fopen([firstData(1).folder, filesep, firstData(1).name], 'r');
+header = fread(fid, 3, 'int32'); fclose(fid);
+Probe.Nelements = header(2);
 % compute transmit delays for BF
 nbAngles = str2double(param_acq.nbAngles);
 txdel = cell(nbAngles,1);
@@ -66,6 +69,19 @@ else
     error('200 % Bandwith is not currently implemented')
 end
 ParamBF.fnumber = fnumber;
+% receive start time: Verasonics starts recording at startDepth (in
+% wavelengths), so the first IQ sample is at t0 and not at t = 0.
+% The lens delay and the transmit-pulse peak (TW(1).peak) as in the
+% Verasonics convention are both are in wavelengths and given by getProbe.
+startDepth_wl = str2double(param_acq.startDepth_wavelengths);
+ParamBF.t0 = (2*(startDepth_wl - Probe.lensCorrection_wl) ...
+    - Probe.twPeak_wl)/ParamBF.fc; % (s)
+% Define BF grid
+zFirstSample = 1540*ParamBF.t0/2; % (m)
+startZ = max(startZ, ceil(zFirstSample/deltaGrid)*deltaGrid);
+xaxis = startX:deltaGrid:endX-deltaGrid;
+zaxis = startZ:deltaGrid:endZ-deltaGrid;
+[xgrid,zgrid] = meshgrid(xaxis, zaxis);
 
 wavelength = 1540/ParamBF.fc;
 % find the default processing parameters
